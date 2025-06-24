@@ -47,3 +47,25 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Additionnal ---
+
+# Temporary files
+*~
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+*.afpub
+
+# Prevent mac users to commit .DS_Store files
+*.DS_Store
+
+# Prevent users to commit data files
+*.gzip
+*.csv
+*.pkl
+
+# Prevent users to commit snakemake logs ans metadata
+*.snakemake
+
